@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+}
+
+.nav-list {
+	list-style-type: none;
+	border: 1px;
+	margin: 0;
+	overflow: hidden;
+	background-color: #006400;
+	width: 45%;
+}
+
+.list-item {
+	padding: 30px;
+	float: left;
+	color: w#ffffff;
+}
+
+.nav-link {
+	color: #ffffff;
+	text-decoration: none;
+}
+.list-item:hover {
+	background-color: #ffa500;
+}
