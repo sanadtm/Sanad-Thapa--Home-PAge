@@ -1,8 +1,36 @@
-.container {
+body {
+	background-color: cornsilk;
+}
+.header {
+	width: 100%;
+	height: 200px;
+}
+.header-list {
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	background-color: rgb(231, 150, 44);
+	overflow: auto;
+}
+.header_img{
+	height: 30px;
+	width: 30px;
+}
+.hlist-item {
+	margin: 0;
+	padding: 30px;
+	color: #ffffff;
+	font-size: px;
+	float: left;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+		Verdana, sans-serif;
+}
+.bio {
 	width: 30vw;
 	padding: 80px;
 	border-style: ridge;
 	margin: 0;
+	margin-left: 26%;
 }
 .container2 {
 	width: 1100px;
@@ -18,3 +46,4 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
