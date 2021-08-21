@@ -1,22 +1,119 @@
 body {
-	background-color: cornsilk;
+	background-color: rgb(199, 188, 188);
 }
-.header {
-	width: 100%;
-	height: 100px;
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
+.banner {
+	border: 10px;
+	border-color: #fa4109;
+	height: 719px;
+	width: 98.5%;
+	padding: 14px;
+	background-image: url("https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif");
+	/* https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.first {
+	margin-left: 75%;
+	margin-top: 10%;
+	color: white;
+	position: absolute;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 60px;
+}
+.middle {
+	margin-left: 77%;
+	margin-top: 14%;
+	color: white;
+
+	position: absolute;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 60px;
+}
+.last {
+	margin-left: 79%;
+	margin-top: 18%;
+	color: white;
+	position: absolute;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 60px;
+}
+.banner img {
+	padding: 0px;
+	width: 700px;
+	border: #ddd solid;
+	height: 700px;
+	border-radius: 455px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.hi1 {
+	margin-left: 2%;
+	margin-top: 9%;
+	color: white;
+	position: absolute;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 60px;
+	width: 8em;
+}
+.hi2 {
+	margin-left: 4%;
+	margin-top: 15%;
+	color: white;
+	position: absolute;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 35px;
+	width: 8em;
+}
+.hi3 {
+	margin-left: 6%;
+	margin-top: 19%;
+	color: white;
+	position: absolute;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 30px;
+	width: 8em;
+}
+.hi4 {
+	margin-left: 7%;
+	margin-top: 23%;
+	color: white;
+	position: absolute;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 25px;
+	width: 8em;
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 6em;
+}
+
 .header-list {
 	list-style-type: none;
 	width: 100%;
 	padding: 0;
-	background-color: rgb(231, 150, 44);
+	background-color: rgb(43, 31, 16);
 	position: absolute;
 	margin: 0;
-	display: block;
+	height: 10%;
 }
 .header_img {
-	height: 30px;
-	width: 30px;
+	height: 20px;
+	width: 20px;
 }
 .hlist-item {
 	margin: 0;
@@ -31,27 +128,11 @@ body {
 .main {
 	width: 64vw;
 	padding: 80px;
-	height: 100%;
+	height: 78%;
 	border-style: ridge;
 	margin-top: 0;
 	margin-left: 23.3%;
 	position: absolute;
-	margin-top: 98px;
+	margin-top: 100px;
+	color: black;
 }
-.container2 {
-	width: 1100px;
-	height: 30vw;
-	padding: 80px;
-	border-style: ridge;
-	border-width: 4px;
-	margin: 0;
-}
-.img {
-	border-radius: 50%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 400px;
-	width: 500px;
-}
-

@@ -1,0 +1,18 @@
+.about {
+	height: 760px;
+	width: 100%;
+	/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.about_photo {
+	width: 50%;
+	padding: 0px;
+	float: left;
+	border-radius: 500px;
+	border: #ddd solid;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.about_bio {
+}

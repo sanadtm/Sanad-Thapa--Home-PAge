@@ -5,57 +5,122 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Home Page</title>
-		<link rel="stylesheet" href="../styles.css" />
+		<link rel="stylesheet" href="/css/about.css" />
 		<link rel="stylesheet" href="/css/index.css" />
 		<link rel="stylesheet" href="/css/navbar.css" />
+		<link rel="stylesheet" href="/css/contact.css" />
+		<link rel="stylesheet" href="/css/project.css" />
+		<script defer src="/js/index.js"></script>
 	</head>
 	<body>
-		<main>
-			<div id= "header">
+		
+			<div class="nav">
+				<a class="active" href="#home">Home</a>
+				<a href="#about">About Me</a>
+				<a href="#projects">Projects</a>
+				<a href="#contactme">Contact Me</a>
+				<a href="#resume">Resume</a>
+				<div class="nav-right">
+				  <a href="https://github.com/sanadtm"><img src="photo/github.png" class="header_img" />Github |</a>
+				  <a href="https://www.instagram.com/sanadtm/?hl=en"><img src="photo/insta.png" class="header_img" />Instagram |</a>
+				  
+				  <a href="#about"><img src="photo/twit.png" class="header_img" />Twitter</a>
+				</div>
+			  </div>
+			<section class = "banner">
+				<h1 class="first">Sanad</h1>
+				<h1 class="middle">Jung</h1> 
+				<h1 class="last">Thapa</h1>
+				<p class="hi1">	Hi!!</p>
+				<p class="hi2">Welcome to </p>
+				<p class="hi3">my</p>
+				<p class="hi4">Portfolio PAGE!</p>
+					
+				
+				<img onmouseover= "changeinto()" onmouseout="changeback()"
+	id="b_photo"
+	src="/photo/sanad2.jpg"
+	width="150"
+	height="200"
+></img>; 
+				
+				
+				
+			  
+			<!-- <div id="header">
 				<ul class="header-list">
-					<li class="hlist-item"><a href="" class="nav-link">Sanad Jung</a></li>
-					<li class="hlist-item"><a href="" class="nav-link"><img src ="photo/github.png" class="header_img">Github</a></li>
+					<li class="hlist-item"><a href="" class="nav-link">Portfolio</a></li>
+					<li class="hlist-item"
+						><a href="https://github.com/sanadtm" class="right-nav-link"
+							><img src="photo/github.png" class="header_img" />Github</a
+						></li
+					>
 					<li class="hlist-item">
-						<a href="" class="nav-link"><img src ="photo/insta.png" class="header_img">Instagram</a>
+						<a href="https://www.instagram.com/sanadtm/?hl=en" class="right-nav-link"
+							><img src="photo/insta.png" class="header_img" />Instagram</a
+						>
 					</li>
 					<li class="hlist-item">
-						<a href="" class="nav-link"><img src ="photo/twit.png" class="header_img">twitter</a>
-					</li>
-					<li class="hlist-item">
-						<a href="" class="nav-link"></a>
+						<a href="https://twitter.com/sanadtm" class="right-nav-link"
+							><img src="photo/twit.png" class="header_img" />twitter</a
+						>
 					</li>
 				</ul>
-				</div>
+			</div>
 			<nav>
-				<div id="container">
-					<ul class="nav-list">
-						<li class="list-item"><a href="" class="nav-link">Home</a></li>
-						<li class="list-item"><a href="" class="nav-link">About</a></li>
-						<li class="list-item">
-							<a href="" class="nav-link">Description</a>
-						</li>
-						<li class="list-item">
-							<a href="" class="nav-link">Projects</a>
-						</li>
-						<li class="list-item">
-							<a href="" class="nav-link">Contact Me</a>
-						</li>
-					</ul>
-				</div>
+				<ul class="nav-list">
+					<li class="list-item"> <a href="index.html" class="nav-link">Home</a></li>
+					<li class="list-item"> <a href="about.html" class="nav-link">About</a></li>
+					<li class="list-item">
+						<a href="hobbies.html" class="nav-link">Hobbies</a>
+					</li>
+					<li class="list-item">
+						<a href="" class="nav-link">Projects</a>
+					</li>
+					<li class="list-item">
+						<a href="contact.html" target="main" class="nav-link">Contact Me</a>
+					</li>
+				</ul>
 			</nav>
 			<div class="main">
-				<img src="photo/sanad.jpg" alt=" Sitting In the Stone" class="img" />								<p style="font-family: verdana">
-						<b>Hi!! My name is Sanad Thapa </b> and I am originally from Nepal moved to the US
-						in 2014 with my family. Something interesting about being has to be that I was in
-						the junior national team for Table Tennis in Nepal back in 2011 and 2012 and I
-						have been investing a lot in stocks and crypto which has been a roller coaster of
-						a ride. In my free time, I like t6o work out, play video games, sit by the
-						campfire and hang out with friends and family and go to the table tennis clubs to
-						work out.
-					</p>
+				
 			</div>
+
+			<br /> -->
+			<hr>
+			</section>
+			<h1>About me</h1>
+				<img class = "about_photo" src = "/photo/sanad3.jpg">
+			<section class="about">
+				<hr>
+				<div class ="about_bio">
+					Hi!! My name is Sanad Thapa and I am originally from Nepal moved 
+					to the US in 2014 with my family. Something interesting about 
+					being has to be that I was in the junior national team 
+					for Table Tennis in Nepal back in 2011 and 2012 and I 
+					have been investing a lot in stocks and crypto which has 
+					been a roller coaster of a ride. In my free time, I like 
+					to work out, play video games, sit by the campfire and 
+					hang out with friends and family and go to the table tennis 
+					clubs to work out.
+					<ul>
+						<li>FOOD LOVER</li>
+						<li>SNOW Boarding</li>
+						<li>Table Tennis</li>
+						<li>Stock and Crypto Investing</li>
+					  </ul>
+				</div>
+			</section>
+			<hr>
+			<h1>Projects</h1>
+			<section class = "projects">
+				<hr>
+				<p>
+					Rust caro game, Instant Messenger App,
+					SightLine Application Classifier 
+				</p>
+			</section>
 	
-			<br />
-			</main>
 	</body>
+	
 </html>
