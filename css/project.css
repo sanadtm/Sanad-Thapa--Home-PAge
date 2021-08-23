@@ -1,7 +1,25 @@
 .projects{
-	height: 760px;
+	height: 1060px;
 	width: 100%;
 	/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+
+.project_photo{
+	margin: 6px;;
+	border: rgb(212, 191, 191) solid;
+	height:500px;
+	width:100%;
+	border-radius: 10px;
+}.project_photo1{
+	border-radius: 10px;
+	border: rgb(167, 163, 163) solid;
+	height:500px;
+	width:50%;
+}.project_photo2{
+	border-radius: 10px;
+	height:400px;
+	width:50%;
+	border: rgb(190, 178, 178) solid;
 }

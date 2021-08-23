@@ -1,21 +1,21 @@
 body {
-	background-color: rgb(199, 188, 188);
-}
-body {
-	margin: 0;
+	background-color: #333;
+	margin: 0px;
 	font-family: Arial, Helvetica, sans-serif;
+	background-size : cover;
 }
 
 .banner {
-	border: 10px;
+	border: 0px;
 	border-color: #fa4109;
 	height: 719px;
-	width: 98.5%;
-	padding: 14px;
+	width: 100%;
+	margin: 0px;
 	background-image: url("https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif");
 	/* https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	background-size : cover;
 }
 .first {
 	margin-left: 75%;
@@ -35,6 +35,16 @@ body {
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 		sans-serif;
 	font-size: 60px;
+}
+.title {
+	margin-left: 79%;
+	margin-top: 34%;
+	color: white;
+
+	position: absolute;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 40px;
 }
 .last {
 	margin-left: 79%;
@@ -64,6 +74,9 @@ body {
 		sans-serif;
 	font-size: 60px;
 	width: 8em;
+}
+hr{
+	color:white;
 }
 .hi2 {
 	margin-left: 4%;
@@ -99,7 +112,9 @@ body {
 h1 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 6em;
+	width: 7em;
+	color: white;
+	padding: 20px;
 }
 
 .header-list {
@@ -135,4 +150,8 @@ h1 {
 	position: absolute;
 	margin-top: 100px;
 	color: black;
+}
+.row {
+	margin-left: 5%;
+	margin-right: 5%;
 }
