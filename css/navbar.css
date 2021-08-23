@@ -1,7 +1,7 @@
 .nav {
 	overflow: hidden;
 	background-color: #333;
-	position: static;
+	position: relative;
 }
 .nav a {
 	float: left;

@@ -1,25 +1,58 @@
-.projects{
-	height: 1060px;
+.projects {
+	height: 1337px;
 	width: 100%;
 	/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
-
-.project_photo{
-	margin: 6px;;
+.col-sm-6{
+	position: relative;
+}
+.project_photo {
+	margin: 6px;
 	border: rgb(212, 191, 191) solid;
-	height:500px;
-	width:100%;
+	height: 460px;
+	width: 650px;
 	border-radius: 10px;
-}.project_photo1{
+	margin: 80px;
+	display:block;
+}
+.project_photo1 {
+	margin: 6px;
+	height: 460px;
+	width: 650px;
 	border-radius: 10px;
-	border: rgb(167, 163, 163) solid;
-	height:500px;
-	width:50%;
-}.project_photo2{
+	margin: 80px;
+	display:block;
+	
+}
+.project_photo2 {
 	border-radius: 10px;
-	height:400px;
-	width:50%;
+	height: 400px;
+	width: 50%;
 	border: rgb(190, 178, 178) solid;
 }
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #f37500;
+  }
+  .col-sm-6:hover .overlay {
+	  padding: 35px;
+	opacity: .7;
+  }
+  .row texttitle{
+	font-size: 40px;
+  }
+  .row text {
+	color: white;
+	font-size: 25px;
+	
+  }
