@@ -21,5 +21,5 @@ function changeinto() {
 	document.getElementById("b_photo").src = "/photo/sanad6.jpg";
 }
 function changeback() {
-	document.getElementById("b_photo").src = "/photo/sanadpcn.jpg";
+	document.getElementById("b_photo").src = "photo/sanadpcn.jpg";
 }
