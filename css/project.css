@@ -11,27 +11,22 @@
 .project_photo {
 	margin: 6px;
 	border: rgb(212, 191, 191) solid;
-	height: 460px;
-	width: 650px;
+	height: 400px;
+	width: 500px;
 	border-radius: 10px;
 	margin: 80px;
 	display:block;
 }
 .project_photo1 {
 	margin: 6px;
-	height: 460px;
-	width: 650px;
+	height: 400px;
+	width: 500px;
 	border-radius: 10px;
 	margin: 80px;
 	display:block;
 	
 }
-.project_photo2 {
-	border-radius: 10px;
-	height: 400px;
-	width: 50%;
-	border: rgb(190, 178, 178) solid;
-}
+
 .overlay {
 	position: absolute;
 	top: 0;
@@ -46,7 +41,7 @@
   }
   .col-sm-6:hover .overlay {
 	  padding: 35px;
-	opacity: .7;
+	opacity: .8;
   }
   .row texttitle{
 	font-size: 40px;

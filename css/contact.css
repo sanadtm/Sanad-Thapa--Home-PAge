@@ -1,0 +1,43 @@
+.contact {
+	margin: auto;
+	width: 20%;
+	padding: 10px;
+}
+.form {
+	margin-left: auto;
+	padding: 20px;
+	width: 350px;
+	height: 280px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: rgb(226, 226, 219);
+	border: 1px solid gray;
+	margin: 0;
+}
+.btn-primary {
+	background-color: #4d415a;
+	color: #ffffff;
+	padding: 5px 25px;
+	margin-top: 9px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 4px;
+	border-color: #ffffff;
+}
+
+.form-element1 {
+	padding: 3px;
+	margin-right: 25px;
+}
+.form-element2 {
+	padding: 3px;
+	margin-right: 23px;
+}
+.form-element3 {
+	padding: 3px;
+	margin-right: -2px;
+}
+.btn {
+	background-color: #003c64;
+}
