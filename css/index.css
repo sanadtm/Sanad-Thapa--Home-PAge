@@ -80,8 +80,8 @@ hr {
 	font-size: 35px;
 	width: 8em;
 }
-.click{
-	visibility:hidden;
+.click {
+	visibility: hidden;
 	font-size: 2px;
 }
 .hi3 {
@@ -280,7 +280,6 @@ h1 {
 	}
 }
 @media (max-width: 415px) {
-	
 	.title {
 		margin-left: 60%;
 		margin-top: 70%;
@@ -291,9 +290,9 @@ h1 {
 		font-size: 60px;
 		transition: 0.5s ease;
 	}
-	.click{
-		font-size: 10px;
-		visibility:visible;
+	.click {
+		font-size: 5px;
+		visibility: visible;
 	}
 	.hi1 {
 		visibility: hidden;
@@ -340,4 +339,3 @@ h1 {
 		transition: 0.5s ease;
 	}
 }
-
