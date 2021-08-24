@@ -5,9 +5,8 @@ body {
 	background-size: cover;
 }
 
-
 .banner {
-	padding:50px;
+	padding: 50px;
 	border-color: #fa4109;
 	height: 719px;
 	width: 100%;
@@ -57,7 +56,6 @@ body {
 		sans-serif;
 	font-size: 30px;
 }
-
 
 .hi1 {
 	margin-left: 2%;
@@ -113,8 +111,8 @@ hr {
 	display: block;
 	transition: 0.5s ease;
 }
-.project quote{
-	color:white;
+.project quote {
+	color: white;
 }
 h1 {
 	margin-left: auto;
@@ -148,7 +146,7 @@ h1 {
 	.banner {
 		border: 0px;
 		border-color: #fa4109;
-		height: 519px;
+		height: 619px;
 		width: 100%;
 		margin-top: 0px;
 		background-image: url("https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif");
@@ -176,11 +174,10 @@ h1 {
 	.banner {
 		border: 0px;
 		border-color: #fa4109;
-		height: 319px;
+		height: 419px;
 		width: 100%;
 		margin-top: 0px;
 		background-image: url("https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif");
-		/* https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg */
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-size: cover;
@@ -197,47 +194,46 @@ h1 {
 		transition: 0.5s ease;
 	}
 	.title {
-		margin-left: 80%;
-		margin-top: 25%;
+		margin-left: 65%;
+		margin-top: 40%;
 		color: white;
-	
+
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
 		font-size: 40px;
 	}
-	
-	
+
 	.hi1 {
-		margin-left: 2%;
+		margin-left: 1%;
 		margin-top: 9%;
 		color: white;
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
-		font-size: 60px;
+		font-size: 50px;
 		width: 8em;
 		transition: 0.5s ease;
 	}
-	
+
 	.hi2 {
-		margin-left: 2%;
+		margin-left: 1%;
 		margin-top: 15%;
 		color: white;
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
-		font-size: 35px;
+		font-size: 25px;
 		width: 8em;
 	}
 	.hi3 {
-		margin-left:2%;
+		margin-left: 2%;
 		margin-top: 19%;
 		color: white;
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
-		font-size: 30px;
+		font-size: 25px;
 		width: 8em;
 	}
 	.hi4 {
@@ -249,9 +245,10 @@ h1 {
 			sans-serif;
 		font-size: 25px;
 		width: 8em;
-	}.first {
-		margin-left: 80%;
-		margin-top:9%;
+	}
+	.first {
+		margin-left: 70%;
+		margin-top: 30%;
 		color: white;
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
@@ -259,19 +256,19 @@ h1 {
 		font-size: 60px;
 	}
 	.middle {
-		margin-left: 80%;
-		margin-top: 12%;
+		margin-left: 70%;
+		margin-top: 33%;
 		color: white;
-	
+
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
 		font-size: 60px;
 	}
-	
+
 	.last {
-		margin-left: 80%;
-		margin-top: 15%;
+		margin-left: 70%;
+		margin-top: 36%;
 		color: white;
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
@@ -280,10 +277,54 @@ h1 {
 	}
 }
 @media (max-width: 415px) {
-	.banner p {
+	
+	.title {
 		visibility: hidden;
 	}
+
+	.hi1 {
+		visibility: hidden;
+	}
+
+	.hi2 {
+		visibility: hidden;
+	}
+	.hi3 {
+		visibility: hidden;
+	}
+	.hi4 {
+		visibility: hidden;
+	}
+	.first {
+		margin-left: 0;
+		margin-top: 70%;
+		color: white;
+		position: absolute;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 60px;
+		transition: 0.5s ease;
+	}
+	.middle {
+		margin-left: 0%;
+		margin-top: 75%;
+		color: white;
+		transition: 0.5s ease;
+		position: absolute;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 60px;
+	}
+
+	.last {
+		margin-left: 0%;
+		margin-top: 80%;
+		color: white;
+		position: absolute;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 60px;
+		transition: 0.5s ease;
+	}
 }
-@media (max-width: 768px) {
-	
-}
+

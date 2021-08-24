@@ -6,12 +6,20 @@
 .col-sm-6 {
 	border-radius: 4px;
 }
-
+h2{
+	color: white;
+	margin-left: 80px;
+	margin-top: 30px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 2vw;
+}
 @media (min-width: 415px) {
 	.col-sm-6 {
 		position: relative;
 		
 	}
+	
 	.project_photo {
 		border: rgb(212, 191, 191) solid;
 		width: 90%;
@@ -53,10 +61,16 @@
 		font-size: 5px;
 	}
 }
-
+.projects #links{
+	margin-top: 60px;
+	color:white;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	font-size: 1vw;
+}
 .col-sm-6 {
 	position: relative;
-	
+	display: block;
 }
 .project_photo {
 	border: rgb(212, 191, 191) solid;
@@ -97,4 +111,24 @@
 .row text {
 	color: white;
 	font-size: 1.3vw;
+}
+@media (min-width: 719px) {
+.projects {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: 0.5s ease;
+		background-color: #f37500;
+		
+	}
 }

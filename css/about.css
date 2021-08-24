@@ -5,7 +5,9 @@
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
-
+.textabout texth{
+	font-size: 30px;
+}
 .ab_photo {
 	width: 90%;
 	margin: 20px;
@@ -13,10 +15,10 @@
 	border: rgb(212, 191, 191) solid;
 	border-radius: 50px;
 }
-.textabout{
+.textabout {
 	padding: 20px;
 	font-weight: bold;
-	font-size: 1.5vw;
+	font-size: 1vw;
 	color: white;
 }
 .row span {
@@ -27,50 +29,24 @@
 }
 
 #content3::before {
-	
 	white-space: pre;
 	color: white;
 }
 .col-sm-6 {
 	position: absolute;
-	
 }
-@media (max-width: 415px) {
-	.about {
-		width: 100%;
-		
-		font-size: 20px;
-		/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+@media (max-width: 959px) {
+	.about{
+		height:595px;
 	}
-	.ab_photo {
-		margin-left: 50%;	
-		border: rgb(212, 191, 191) solid;
-		border-radius: 50px;
-		margin: auto;
-		width: 50%;
-	}
-
-	.row span {
-		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
-			sans-serif;
-		color: white;
-		
-	}
-	.about ul{
-				
-		font-size: 10px;
-	}
-	.textabout{
-			
-		font-size: 10px;
+	.textabout {
+		font-size: 12px;
 	}
 }
 @media (max-width: 768px) {
 	.about {
 		padding: 10px;
-		height: 550px;
+		height: 600px;
 		width: 100%;
 		background-repeat: no-repeat;
 	}
@@ -88,5 +64,37 @@
 			sans-serif;
 		color: white;
 		font-size: 5px;
+	}
+	.textabout {
+		font-size: 9px;
+	}
+}
+@media (max-width: 414px) {
+	.about {
+		width: 100%;
+		height: 530px;
+		font-size: 20px;
+		/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.ab_photo {
+		margin-left: 50%;
+		border: rgb(212, 191, 191) solid;
+		border-radius: 50px;
+		margin: auto;
+		width: 50%;
+	}
+
+	.row span {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		color: white;
+	}
+	.about ul {
+		font-size: 10px;
+	}
+	.textabout {
+		font-size: 10px;
 	}
 }
