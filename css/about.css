@@ -5,6 +5,7 @@
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+
 .ab_photo {
 	width: 90%;
 	margin: 20px;
@@ -12,30 +13,21 @@
 	border: rgb(212, 191, 191) solid;
 	border-radius: 50px;
 }
-
+.textabout{
+	padding: 20px;
+	font-weight: bold;
+	font-size: 1.5vw;
+	color: white;
+}
 .row span {
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 		sans-serif;
 	color: white;
 	font-size: 1.5vw;
 }
-#content1 {
-	font-weight: bold;
-	font-size: 2.5vw;
-	color: white;
-}
-#content1::before {
-	white-space: pre;
-	content: "\a";
-	color: white;
-}
-#content2::before {
-	content: "\a";
-	white-space: pre;
-	color: white;
-}
+
 #content3::before {
-	content: "\a";
+	
 	white-space: pre;
 	color: white;
 }
