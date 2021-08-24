@@ -81,6 +81,10 @@ hr {
 	font-size: 35px;
 	width: 8em;
 }
+.click{
+	visibility:hidden;
+	font-size: 2px;
+}
 .hi3 {
 	margin-left: 6%;
 	margin-top: 19%;
@@ -281,7 +285,10 @@ h1 {
 	.title {
 		visibility: hidden;
 	}
-
+	.click{
+		font-size: 10px;
+		visibility:visible;
+	}
 	.hi1 {
 		visibility: hidden;
 	}
