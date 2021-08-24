@@ -1,47 +1,14 @@
-@media (max-width: 414px) {
-	.ab_photo {
-		width: 140%;
-		margin: 10px;
-		border: rgb(212, 191, 191) solid;
-		border-radius: 50px;
-	}
-	.row span {
-		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
-			sans-serif;
-		color: rgb(167, 38, 38);
-		font-size: 2px;
-	}
-	#content1 {
-		font-weight: bold;
-		font-size: 2px;
-		color: rgb(143, 79, 79);
-	}
-	#content1::before {
-		white-space: pre;
-		content: "\a";
-		color: white;
-	}
-	#content2::before {
-		content: "\a";
-		white-space: pre;
-		color: white;
-	}
-	#content3::before {
-		content: "\a";
-		white-space: pre;
-		color: white;
-	}
-}
 .about {
 	padding: 50px;
-	height: 880px;
+
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 .ab_photo {
 	width: 90%;
-	margin: 50px;
+	margin: 20px;
+	margin-top: 50px;
 	border: rgb(212, 191, 191) solid;
 	border-radius: 50px;
 }
@@ -71,4 +38,54 @@
 	content: "\a";
 	white-space: pre;
 	color: white;
+}
+.col-sm-6 {
+	position: absolute;
+	
+}
+@media (max-width: 415px) {
+	.about {
+		width: 100%;
+		height: 50%;
+		/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.ab_photo {
+		margin-left: 50%;	
+		border: rgb(212, 191, 191) solid;
+		border-radius: 50px;
+		margin: auto;
+		width: 50%;
+	}
+
+	.row span {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		color: white;
+		font-size: 5px;
+	}
+}
+@media (max-width: 768px) {
+	.about {
+		padding: 10px;
+		height: 550px;
+		width: 100%;
+		background-repeat: no-repeat;
+	}
+	.ab_photo {
+		width: 50%;
+		margin: 0 auto;
+		margin: 10px;
+		border: rgb(212, 191, 191) solid;
+		border-radius: 50px;
+		display: inline-block;
+	}
+
+	.row span {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		color: white;
+		font-size: 5px;
+	}
 }

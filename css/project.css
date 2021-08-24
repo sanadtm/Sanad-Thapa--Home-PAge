@@ -1,5 +1,4 @@
 .projects {
-	height: 1107px;
 	width: 100%;
 	/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
 	background-repeat: no-repeat;
@@ -59,20 +58,19 @@
 }
 .project_photo {
 	border: rgb(212, 191, 191) solid;
-	width: 90%;
+	width: 86%;
 	border-radius: 10px;
-	margin: 80px;
+	margin: 30px;
 	display: block;
 	object-fit: cover;
-	margin: 50px;
+	
 }
 .project_photo1 {
-	width: 90%;
+	width: 86%;
 	border-radius: 10px;
-	margin: 80px;
+	margin: 30px;
 	display: block;
 	object-fit: cover;
-	margin: 50px;
 }
 
 .overlay {
