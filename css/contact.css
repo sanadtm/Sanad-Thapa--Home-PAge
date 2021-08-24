@@ -35,7 +35,16 @@ form {
 .message input {
 	width: 100%;
 }
-
+a#toplink {
+	text-decoration: none;
+	color: white;
+	font-size: 3vw;
+	margin-left: 50%;
+	margin-right: auto;
+}
+a#toplink:hover {
+	color: rgb(59, 91, 133);
+}
 .form-element1 {
 	padding: 3px;
 	margin-right: 25px;
@@ -52,6 +61,4 @@ textarea {
 }
 .btn {
 	background-color: #003c64;
-}
-@media (min-width: 415px) {
 }
