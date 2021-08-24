@@ -1,22 +1,45 @@
+@media (max-width: 414px) {
+	.ab_photo {
+		width: 140%;
+		margin: 10px;
+		border: rgb(212, 191, 191) solid;
+		border-radius: 50px;
+	}
+	.row span {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		color: rgb(167, 38, 38);
+		font-size: 2px;
+	}
+	#content1 {
+		font-weight: bold;
+		font-size: 2px;
+		color: rgb(143, 79, 79);
+	}
+	#content1::before {
+		white-space: pre;
+		content: "\a";
+		color: white;
+	}
+	#content2::before {
+		content: "\a";
+		white-space: pre;
+		color: white;
+	}
+	#content3::before {
+		content: "\a";
+		white-space: pre;
+		color: white;
+	}
+}
 .about {
 	padding: 50px;
 	height: 880px;
 	width: 100%;
-	/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
-.about_photo {
-	width: 50%;
-	padding: 0px;
-	float: left;
-	border-radius: 500px;
-	border: #ddd solid;
-	margin-top: 2%;
-	margin-left: 2%;
-}
 .ab_photo {
-	height: 650px;
 	width: 90%;
 	margin: 50px;
 	border: rgb(212, 191, 191) solid;
@@ -27,11 +50,11 @@
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 		sans-serif;
 	color: white;
-	font-size: 25px;
+	font-size: 1.5vw;
 }
 #content1 {
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 2.5vw;
 	color: white;
 }
 #content1::before {
