@@ -1,13 +1,12 @@
 .projects {
 	width: 100%;
-	/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 .col-sm-6 {
 	border-radius: 4px;
-	
 }
+
 @media (min-width: 415px) {
 	.col-sm-6 {
 		position: relative;

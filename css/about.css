@@ -38,7 +38,8 @@
 @media (max-width: 415px) {
 	.about {
 		width: 100%;
-		height: 50%;
+		
+		font-size: 20px;
 		/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -55,7 +56,15 @@
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
 		color: white;
-		font-size: 5px;
+		
+	}
+	.about ul{
+				
+		font-size: 10px;
+	}
+	.textabout{
+			
+		font-size: 10px;
 	}
 }
 @media (max-width: 768px) {

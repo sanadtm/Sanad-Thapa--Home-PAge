@@ -7,7 +7,7 @@ body {
 
 
 .banner {
-	border: 0px;
+	padding:50px;
 	border-color: #fa4109;
 	height: 719px;
 	width: 100%;
@@ -104,7 +104,6 @@ hr {
 	width: 8em;
 }
 .banner img {
-	padding: 0px;
 	width: 600px;
 	border: #ddd solid;
 	height: 600px;
@@ -113,6 +112,9 @@ hr {
 	margin-right: auto;
 	display: block;
 	transition: 0.5s ease;
+}
+.project quote{
+	color:white;
 }
 h1 {
 	margin-left: auto;
