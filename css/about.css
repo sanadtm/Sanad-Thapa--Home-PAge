@@ -79,11 +79,13 @@
 		background-size: 100% 100%;
 	}
 	.ab_photo {
-		margin-left: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		border: rgb(212, 191, 191) solid;
 		border-radius: 50px;
 		margin: auto;
-		width: 50%;
+		
 	}
 
 	.row span {

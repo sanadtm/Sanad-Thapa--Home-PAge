@@ -12,7 +12,6 @@ body {
 	width: 100%;
 	margin-top: 0px;
 	background-image: url("https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif");
-	/* https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-size: cover;
@@ -283,7 +282,14 @@ h1 {
 @media (max-width: 415px) {
 	
 	.title {
-		visibility: hidden;
+		margin-left: 60%;
+		margin-top: 70%;
+		color: white;
+		position: absolute;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 60px;
+		transition: 0.5s ease;
 	}
 	.click{
 		font-size: 10px;
