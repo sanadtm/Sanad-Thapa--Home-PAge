@@ -13,6 +13,7 @@
 	background-color: rgb(226, 226, 219);
 	border: 1px solid gray;
 	margin: 0;
+	display: block;
 }
 .btn-primary {
 	background-color: #4d415a;
