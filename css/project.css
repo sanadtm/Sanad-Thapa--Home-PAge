@@ -6,7 +6,7 @@
 .col-sm-6 {
 	border-radius: 4px;
 }
-h2{
+h2 {
 	color: white;
 	margin-left: 80px;
 	margin-top: 30px;
@@ -17,9 +17,8 @@ h2{
 @media (min-width: 415px) {
 	.col-sm-6 {
 		position: relative;
-		
 	}
-	
+
 	.project_photo {
 		border: rgb(212, 191, 191) solid;
 		width: 90%;
@@ -54,16 +53,16 @@ h2{
 		opacity: 0.8;
 	}
 	.row texttitle {
-		font-size: 10px;
+		font-size: 16px;
 	}
 	.row text {
 		color: white;
-		font-size: 5px;
+		font-size: 8px;
 	}
 }
-.projects #links{
+.projects #links {
 	margin-top: 60px;
-	color:white;
+	color: white;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 		sans-serif;
 	font-size: 1vw;
@@ -79,7 +78,6 @@ h2{
 	margin: 30px;
 	display: block;
 	object-fit: cover;
-	
 }
 .project_photo1 {
 	width: 86%;
@@ -113,10 +111,10 @@ h2{
 	font-size: 1.3vw;
 }
 @media (min-width: 719px) {
-.projects {
-	width: 100%;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	.projects {
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 	.overlay {
 		position: absolute;
@@ -129,6 +127,5 @@ h2{
 		opacity: 0;
 		transition: 0.5s ease;
 		background-color: #f37500;
-		
 	}
 }

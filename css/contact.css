@@ -1,8 +1,7 @@
 .contact {
-	margin: auto;
-	width: 30%;
-
-	padding: 0px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 input {
 	width: 100%;
@@ -16,8 +15,9 @@ form {
 	background-color: rgb(226, 226, 219);
 	border: 1px solid gray;
 	margin: 0;
-	width: 140%;
+	width: 100%;
 	padding: 10px;
+	
 }
 .btn-primary {
 	background-color: #4d415a;
@@ -39,6 +39,16 @@ a#toplink {
 	font-size: 3vw;
 	margin-left: 50%;
 	margin-right: auto;
+}
+.social {
+	font-size: 2vw;
+}
+.social a{
+	text-decoration: none;
+	color:white;
+}.social a:hover{
+	text-decoration: none;
+	background-color:blue;
 }
 a#toplink:hover {
 	color: rgb(59, 91, 133);
@@ -63,7 +73,7 @@ textarea {
 @media (max-width: 415px) {
 .contact {
 	margin: auto;
-	width: 60%;
+	width: 100%;
 
 	padding: 0px;
 }
