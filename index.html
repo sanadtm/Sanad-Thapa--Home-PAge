@@ -10,7 +10,7 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 		/>
-		<link rel="Icon" href="photo/sjtmlogo.PNG" />
+		<link rel="Icon" href="photo/sjtmlogo.PNG" alt="my personal Logo" />
 		<link rel="stylesheet" href="css/about.css" />
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/navbar.css" />
@@ -27,16 +27,18 @@
 			<a href="#about">Resume</a>
 			<div class="nav-right">
 				<a href="https://www.linkedin.com/in/sanad-thapa-931666112/"
-					><img src="photo/linkin.png" class="header_img" />LinkedIn |</a
+					><img src="photo/linkin.png" class="header_img" alt="goto my LinkedIn" />LinkedIn
+					|</a
 				>
 				<a href="https://github.com/sanadtm"
-					><img src="photo/github.png" class="header_img" />Github |</a
+					><img src="photo/github.png" class="header_img" alt="goto my Github" />Github |</a
 				>
 				<a href="https://www.instagram.com/sanadtm/?hl=en"
-					><img src="photo/insta.png" class="header_img" />Instagram |</a
+					><img src="photo/insta.png" class="header_img" alt="goto my Instagram" />Instagram
+					|</a
 				>
 
-				<a href="https://twitter.com/sanadtm"
+				<a href="https://twitter.com/sanadtm" alt="goto my twitter"
 					><img src="photo/twit.png" class="header_img" />Twitter</a
 				>
 			</div>
@@ -55,7 +57,8 @@
 				onmouseover="changeinto()"
 				onmouseout="changeback()"
 				id="b_photo"
-				src="photo/sanadpcn.jpg"
+				src="photo/sanadpcn.jpg "
+				alt="sanad is cool"
 				width="150"
 				height="200"
 			/>
@@ -64,7 +67,9 @@
 			<h1>About me</h1>
 
 			<div class="row">
-				<div class="col-md-6"><img class="ab_photo" src="photo/sanad5.PNG" /></div>
+				<div class="col-md-6"
+					><img class="ab_photo" src="photo/sanad5.PNG" alt="sanad is cool"
+				/></div>
 				<div class="col-md-6" id="innerabout">
 					<div class="textabout">
 						<h5>Hi!! </h5>I am Sanad Jung Thapa and I am originally from Nepal moved to the US
@@ -94,9 +99,11 @@
 			<h1>Projects<text class="click"> click me!</text></h1>
 			<div class="row">
 				<div class="col-sm-6" style="background-color: rgb(153, 127, 35)"
-					><img class="project_photo" src="project_photos/sightline.PNG" /><div
-						class="overlay"
-					>
+					><img
+						class="project_photo"
+						src="project_photos/sightline.PNG"
+						alt="Sight line Oregon Project"
+					/><div class="overlay">
 						<text
 							><texttitle>Skyline Classifier (On-Going)</texttitle>
 							June 2021 - December 2021
@@ -121,7 +128,7 @@
 					></div
 				>
 				<div class="col-sm-6" style="background-color: rgb(128, 74, 90)">
-					<img class="project_photo" src="project_photos/RustGomoku.PNG" /><div
+					<img class="project_photo" src="project_photos/RustGomoku.PNG"  alt="goto my Rust Gomoku Project" /><div
 						class="overlay"
 					>
 						<text
@@ -144,7 +151,7 @@
 
 			<div class="row">
 				<div class="col-sm-6" style="background-color: rgb(94, 94, 231)"
-					><img class="project_photo1" src="project_photos/chat-app.PNG" /><div
+					><img class="project_photo1" src="project_photos/chat-app.PNG"  alt="goto my Messenger App" /><div
 						class="overlay"
 					>
 						<text
@@ -190,15 +197,15 @@
 				<div class="col-sm-12">
 					<form>
 						<div id="input"
-							><label class="form-element1">Name:</label>
+							><label name="nname" class="form-element1">Name:</label>
 							<input id="name" id="fname" name="name" type="text" />
 						</div>
 						<div id="input"
-							><label class="form-element2">Email:</label>
+							><label name="eemail" class="form-element2">Email:</label>
 							<input id="email" name="email" type="email" />
 						</div>
 						<div id="input"
-							><label class="form-element3">Message:</label>
+							><label name="msg" class="form-element3">Message:</label>
 							<textarea id="message" name="message" type="textbox"></textarea>
 						</div>
 						<div id="input">
