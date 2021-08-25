@@ -1,6 +1,8 @@
 This is My Personal WEBSITE for CS 410 WebDev class final Project at Portland State University for Summer 2021.
+- This Site is Deployed here : [Link to Site](https://sanadtm.github.io/SanadThapa-Home-Page/)
 
 Sources Used to make this Website are as follows:
+- The technologies that we learned in this class like HTML, CSS, Bootstrap and JavaScript.
 - https://www.w3schools.com/howto/howto_css_image_overlay.asp
 - https://www.w3schools.com/html/default.asp
 - https://www.w3schools.com/css/default.asp
