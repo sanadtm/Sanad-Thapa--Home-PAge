@@ -21,17 +21,16 @@
 	font-size: 1vw;
 	color: white;
 }
-ul{
+ul {
 	font-size: 20px;
 }
-ul li{
-	font-size:1.3vw;
+ul li {
+	font-size: 1.3vw;
 }
-text#ulh{
+text#ulh {
 	font-style: italic;
-
 }
-text#ulh a{
+text#ulh a {
 	text-decoration: none;
 }
 .row span {
@@ -40,8 +39,8 @@ text#ulh a{
 	color: white;
 	font-size: 1.5vw;
 }
-ul a{
-	color:white;
+ul a {
+	color: white;
 }
 #content3::before {
 	white-space: pre;
@@ -87,7 +86,7 @@ ul a{
 @media (max-width: 414px) {
 	.about {
 		width: 100%;
-		height: 507px;
+		height: 537px;
 		font-size: 20px;
 		/* background-image: url("https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg"); */
 		background-repeat: no-repeat;
