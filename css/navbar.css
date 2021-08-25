@@ -16,8 +16,8 @@
 }
 
 .nav a.active {
-	background-color: #fa4109;
-	color: white;
+	
+	color:orange;
 }
 
 .nav-right {
