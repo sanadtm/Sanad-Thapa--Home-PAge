@@ -1,4 +1,4 @@
-This is Mt Personal WEBSITE for CS 410 WebDev class final Project at Portland State University for Summer 2021.
+This is My Personal WEBSITE for CS 410 WebDev class final Project at Portland State University for Summer 2021.
 
 Sources Used to make this Website are as follows:
 - https://www.w3schools.com/html/default.asp
