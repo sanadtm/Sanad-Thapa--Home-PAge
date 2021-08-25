@@ -7,6 +7,8 @@ Sources Used to make this Website are as follows:
 - https://www.w3schools.com/bootstrap/
 - https://stackoverflow.com/questions/41784161/javascript-change-image-when-onmouseover-and-onmouseout
 - https://www.w3schools.com/css/css_navbar.asp
+- https://www.w3schools.com/tags/tag_textarea.asp
+- https://www.w3schools.com/css/css_align.asp
 
 Looked at 10+ Personal Websites from list of 100+ for inspiration 
 -https://github.com/HackathonHackers/personal-sites
