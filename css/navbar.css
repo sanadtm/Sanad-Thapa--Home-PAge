@@ -3,6 +3,8 @@
 	position: relative;
 }
 .nav a {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
 	float: left;
 	color: #f2f2f2;
 	padding: 14px 16px;

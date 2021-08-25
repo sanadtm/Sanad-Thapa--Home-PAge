@@ -11,7 +11,8 @@ body {
 	height: 719px;
 	width: 100%;
 	margin-top: 0px;
-	background-image: url("https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif");
+	background-image: url("https://www.hyperledger.org/wp-content/uploads/2016/08/hl_bg_banner.jpg");
+	/* Secondary Background  - https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-size: cover;
@@ -126,7 +127,6 @@ h1 {
 	padding: 20px;
 	font-style: italic;
 	font-weight: bold;
-
 }
 
 .header_img {
@@ -156,7 +156,7 @@ h1 {
 		height: 619px;
 		width: 100%;
 		margin-top: 0px;
-		background-image: url("https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif");
+		background-image: url("https://www.hyperledger.org/wp-content/uploads/2016/08/hl_bg_banner.jpg");
 		/* https://magtemplates.com/wp-content/uploads/2017/06/Technology-Programming-Wallpaper.jpg */
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -184,7 +184,7 @@ h1 {
 		height: 419px;
 		width: 100%;
 		margin-top: 0px;
-		background-image: url("https://i.pinimg.com/originals/d9/6b/80/d96b80159414ba45189e70a214f6eedf.gif");
+		background-image: url("https://www.hyperledger.org/wp-content/uploads/2016/08/hl_bg_banner.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-size: cover;

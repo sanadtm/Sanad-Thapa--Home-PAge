@@ -8,6 +8,8 @@ input {
 	height: 25px;
 }
 form {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
 	padding: 20px;
 	height: 290px;
 	padding: 0px;
@@ -17,7 +19,6 @@ form {
 	margin: 0;
 	width: 100%;
 	padding: 10px;
-	
 }
 .btn-primary {
 	background-color: #4d415a;
@@ -34,6 +35,8 @@ form {
 	width: 100%;
 }
 a#toplink {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
 	text-decoration: none;
 	color: white;
 	font-size: 3vw;
@@ -43,12 +46,17 @@ a#toplink {
 .social {
 	font-size: 2vw;
 }
-.social a{
+.social a {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
 	text-decoration: none;
-	color:white;
-}.social a:hover{
+	color: white;
+}
+.social a:hover {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
 	text-decoration: none;
-	background-color:blue;
+	background-color: rgb(47, 47, 143);
 }
 a#toplink:hover {
 	color: rgb(59, 91, 133);
@@ -71,10 +79,10 @@ textarea {
 	background-color: #003c64;
 }
 @media (max-width: 415px) {
-.contact {
-	margin: auto;
-	width: 100%;
+	.contact {
+		margin: auto;
+		width: 100%;
 
-	padding: 0px;
-}
+		padding: 0px;
+	}
 }

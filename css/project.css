@@ -37,6 +37,8 @@ h2 {
 		margin: 50px;
 	}
 	.overlay {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
 		position: absolute;
 		top: 0;
 		bottom: 0;
