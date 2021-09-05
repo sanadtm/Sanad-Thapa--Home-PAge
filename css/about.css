@@ -96,6 +96,12 @@ ul a {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+	text#h {
+		font-size: 12px;
+	}
+	text#ulh {
+		font-size: 12px;
+	}
 	.ab_photo {
 		display: block;
 		margin-left: auto;
@@ -110,8 +116,8 @@ ul a {
 			sans-serif;
 		color: white;
 	}
-	.about ul {
-		font-size: 10px;
+	.about ul li {
+		font-size: 6px;
 	}
 	.textabout {
 		font-size: 10px;
