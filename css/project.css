@@ -14,11 +14,18 @@ h2 {
 		sans-serif;
 	font-size: 2vw;
 }
+
 @media (min-width: 415px) {
 	.col-sm-6 {
 		position: relative;
 	}
-
+	.projects #links {
+		margin-top: 60px;
+		color: white;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 10px;
+	}
 	.project_photo {
 		border: rgb(212, 191, 191) solid;
 		width: 90%;
@@ -51,15 +58,19 @@ h2 {
 		background-color: #f37500;
 	}
 	.col-sm-6:hover .overlay {
-		padding: 10px;
+		padding: 5px;
 		opacity: 0.8;
 	}
-	.row texttitle {
+	.row texttitle1 {
 		font-size: 16px;
 	}
 	.row text {
 		color: white;
 		font-size: 8px;
+	}
+	.row li {
+		color: white;
+		font-size: 11px;
 	}
 }
 .projects #links {
@@ -102,7 +113,7 @@ h2 {
 	background-color: #f37500;
 }
 .col-sm-6:hover .overlay {
-	padding: 35px;
+	padding: 25px;
 	opacity: 0.8;
 }
 .row texttitle {
@@ -112,7 +123,7 @@ h2 {
 	color: white;
 	font-size: 1.3vw;
 }
-@media (min-width: 719px) {
+@media (max-width: 719px) {
 	.projects {
 		width: 100%;
 		background-repeat: no-repeat;
