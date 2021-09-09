@@ -15,7 +15,7 @@ h2 {
 	font-size: 2vw;
 }
 
-@media (min-width: 415px) {
+@media (max-width: 415px) {
 	.col-sm-6 {
 		position: relative;
 	}
