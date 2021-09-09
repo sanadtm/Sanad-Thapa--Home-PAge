@@ -97,10 +97,10 @@ ul a {
 		background-size: 100% 100%;
 	}
 	text#h {
-		font-size: 12px;
+		font-size: 8px;
 	}
 	text#ulh {
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.ab_photo {
 		display: block;
@@ -117,7 +117,7 @@ ul a {
 		color: white;
 	}
 	.about ul li {
-		font-size: 6px;
+		font-size: 8px;
 	}
 	.textabout {
 		font-size: 10px;
