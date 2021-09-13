@@ -1,4 +1,5 @@
-This is My Personal WEBSITE for CS 410 WebDev class final Project at Portland State University for Summer 2021.
+This is My Personal WEBSITE!!!
+It was orginally Made in CS 410 WebDev class as final Project at Portland State University for Summer 2021 but it ended up becoming my personal portfolio site.
 - This Site is Deployed here : [Link to Site](https://sanadtm.github.io/SanadThapa-Home-Page/)
 
 The Technologies used in this projects
