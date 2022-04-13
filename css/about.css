@@ -8,12 +8,21 @@
 .textabout texth {
 	font-size: 30px;
 }
+#intro1{
+	font-size: 2vw;
+}
+#h{
+	font-size: 1vw;
+}
 .ab_photo {
 	width: 90%;
 	margin: 20px;
 	margin-top: 50px;
 	border: rgb(212, 191, 191) solid;
 	border-radius: 50px;
+}
+i{
+	font-size: 1.5vw;
 }
 .textabout {
 	padding: 20px;
@@ -25,7 +34,7 @@ ul {
 	font-size: 20px;
 }
 ul li {
-	font-size: 1.3vw;
+	font-size: 1vw;
 }
 text#ulh {
 	font-style: italic;
@@ -91,7 +100,7 @@ ul a {
 @media (max-width: 414px) {
 	.about {
 		width: 100%;
-		height: 570px;
+		height: 600px;
 		font-size: 20px;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
