@@ -229,7 +229,26 @@ h1 {
 			sans-serif;
 		font-size: 40px;
 	}
+	.title1 {
+		margin-left: 70%;
+		margin-top: 43%;
+		color: white;
 
+		position: absolute;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 25px;
+	}
+	.title2 {
+		margin-left: 72%;
+		margin-top: 46%;
+		color: white;
+
+		position: absolute;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 25px;
+	}
 	.hi1 {
 		margin-left: 1%;
 		margin-top: 9%;
@@ -305,7 +324,7 @@ h1 {
 @media (max-width: 415px) {
 	.title {
 		margin-left: 60%;
-		margin-top: 70%;
+		margin-top: 76%;
 		color: white;
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
@@ -313,42 +332,51 @@ h1 {
 		font-size: 60px;
 		transition: 0.5s ease;
 	}
-	.title1 {
-		margin-left: 70%;
-		margin-top: 43%;
-		color: white;
 
+	.title2 {
+		visibility: hidden;
+	}
+	.hi1 {
+		margin-left: -10%;
+		margin-top: -12%;
+		color: white;
+		position: absolute;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 50px;
+		width: 8em;
+		transition: 0.5s ease;
+	}
+
+	.hi2 {
+		margin-left: -10%;
+		margin-top: -8%;
+		color: white;
+		position: absolute;
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		font-size: 20px;
+		width: 8em;
+	}
+	.hi3 {
+		margin-left: 1%;
+		margin-top: -3%;
+		color: white;
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
 		font-size: 25px;
+		width: 8em;
 	}
-	.title2 {
-		margin-left: 72%;
-		margin-top: 46%;
+	.hi4 {
+		margin-left: 20%;
+		margin-top: -10%;
 		color: white;
-
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
-		font-size: 5px;
-	}
-	.click {
-		font-size: 5px;
-		visibility: visible;
-	}
-	.hi1 {
-		visibility: hidden;
-	}
-
-	.hi2 {
-		visibility: hidden;
-	}
-	.hi3 {
-		visibility: hidden;
-	}
-	.hi4 {
-		visibility: hidden;
+		font-size: 15px;
+		width: 8em;
 	}
 	.first {
 		margin-left: 0;
