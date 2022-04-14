@@ -49,13 +49,13 @@ body {
 }
 .title {
 	margin-left: 68%;
-	margin-top: 40%;
+	margin-top: 25%;
 	color: white;
 
 	position: absolute;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 		sans-serif;
-	font-size: 25px;
+	font-size: 45px;
 }
 .title1 {
 	margin-left: 70%;
@@ -114,6 +114,9 @@ hr {
 		sans-serif;
 	font-size: 25px;
 	width: 8em;
+}
+.i{
+	color:#fa4109
 }
 .hi4 {
 	margin-left: 4%;

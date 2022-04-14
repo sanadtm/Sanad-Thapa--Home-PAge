@@ -1,8 +1,8 @@
 function changeinto() {
-	document.getElementById("b_photo").src = "photo/sanad6.jpg";
+	document.getElementById("b_photo").src = "photo/sanadpcn.jpg";
 }
 function changeback() {
-	document.getElementById("b_photo").src = "photo/sanadpcn.jpg";
+	document.getElementById("b_photo").src = "photo/sanaddp.jpg";
 }
 let form1 = document.querySelector("form");
 
