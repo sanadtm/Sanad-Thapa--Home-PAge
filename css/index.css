@@ -48,7 +48,7 @@ body {
 	font-size: 30px;
 }
 .title {
-	margin-left: 68%;
+	margin-left: 73%;
 	margin-top: 25%;
 	color: white;
 
@@ -58,7 +58,7 @@ body {
 	font-size: 45px;
 }
 .title1 {
-	margin-left: 70%;
+	margin-left: 76%;
 	margin-top: 43%;
 	color: white;
 
@@ -68,7 +68,7 @@ body {
 	font-size: 25px;
 }
 .title2 {
-	margin-left: 72%;
+	margin-left: 78%;
 	margin-top: 46%;
 	color: white;
 
@@ -115,8 +115,8 @@ hr {
 	font-size: 25px;
 	width: 8em;
 }
-.i{
-	color:#fa4109
+.i {
+	color: #fa4109;
 }
 .hi4 {
 	margin-left: 4%;
@@ -223,18 +223,18 @@ h1 {
 		transition: 0.5s ease;
 	}
 	.title {
-		margin-left: 65%;
-		margin-top: 40%;
+		margin-left: 75%;
+		margin-top: 50%;
 		color: white;
 
 		position: absolute;
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
 			sans-serif;
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.title1 {
-		margin-left: 70%;
-		margin-top: 43%;
+		margin-left: 75%;
+		margin-top: 49%;
 		color: white;
 
 		position: absolute;
